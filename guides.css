@@ -11,29 +11,29 @@
 #title h1 {
     font-family: 'trebuchet MS', 'lucida sans';
     text-decoration: none;
-    color: #003f7f;
+    color: #862633;
     text-shadow: 0 2px 3px hsla(0, 0%, 0%, 0.4);
 }
 #title a:hover { text-decoration: none }
 #title h2 {
     font-family: 'trebuchet MS', 'lucida sans';
     text-decoration: none;
-    color: #003f7f;
+    color: #862633;
     text-shadow: 0 2px 3px hsla(0, 0%, 0%, 0.4);
 }
 #title a {
-    color:#003f7f;
+    color:#862633;
 }
 #title p {
-    color: #003f7f;
+    color: #862633;
     text-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.1);
     font-family: 'trebuchet MS', 'lucida sans';
 }
 #content a:hover {
-    border-bottom: 1px dashed #003f7f;
+    border-bottom: 1px dashed #862633;
     text-decoration: none;
 }
-a, a:visited {text-decoration: none; color:#003f7f;}
+a, a:visited {text-decoration: none; color:#862633;}
 
 /*category boxes*/
 .boxes { margin: 0 auto }
@@ -43,14 +43,14 @@ a.box {
     -moz-border-radius: 5px;
     border-radius: 5px;
     display: inline-block;
-    box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.5);
     -khtml-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.5);
 }
 a.box:hover {
-    box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
     -khtml-box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 24px 2px rgba(0,0,0,0.5);
     background: #fff;
     text-decoration:none;
 }
@@ -58,7 +58,7 @@ a.box h2 {
     text-align: center;
     font-family: 'trebuchet MS', 'lucida sans';
     font-weight: normal;
-    color: #054b8c;
+    color: #862633;
     text-decoration: none;
 
 }
@@ -67,14 +67,14 @@ ul#guides { list-style: none }
 /*search*/
 #submit-button {
     float: left;
-    border: 1px  #054b8c;
+    border: 1px  #862633;
     box-shadow: 0px 0px 4px #003f7f;
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     margin-left: 6px;
     padding: 0 0 0 0;
     cursor: pointer;
-    color: #054b8c;
+    color: #862633;
     text-transform: uppercase;
     background: #f8f8f8;
     border-radius: 3px 3px 3px 3px;
@@ -84,8 +84,8 @@ ul#guides { list-style: none }
 }
 #submit-button:hover {
     background: #fff;
-    border: 1px #003f7f;
-    box-shadow: 0px 0px 6px #003f7f;
+    border: 1px #862633;
+    box-shadow: 0px 0px 6px #862633;
 }
 #submit-button:-moz-focus-inner {
     /* remove extra button spacing for Mozilla Firefox */
@@ -94,7 +94,7 @@ ul#guides { list-style: none }
     padding: 0;
 }
 #searchBox {
-    color: #054b8c;
+    color: #862633;
     float: left;
     background-color: #f8f8f8;
     outline: none;
@@ -106,9 +106,9 @@ ul#guides { list-style: none }
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
-    -moz-box-shadow: 0px 0px 6px #003f7f;
-    -webkit-box-shadow: 0px 0px 6px #003f7f;
-    box-shadow: 0px 0px 6px #003f7f;
+    -moz-box-shadow: 0px 0px 6px #862633;
+    -webkit-box-shadow: 0px 0px 6px #862633;
+    box-shadow: 0px 0px 6px #862633;
 }
 ul#search {
     float: left;
@@ -153,12 +153,12 @@ ul#search {
     margin: 0;
     padding: 0;
     list-style: none;
-    color: #054b8c;
+    color: #862633;
     background-color: rgba(215, 215, 215, .5);
 }
 .guide-nav a:hover {
     text-decoration: none;
-    color: #003f7f;
+    color: #862633;
     background-color: #f9f9f9;
     border-radius: 5px;
     box-shadow: 1px 1px 1px hsla(0, 0%, 100%, 0.5), inset 0 1px 1px hsla(0, 0%, 0%, 0.5);
@@ -170,7 +170,7 @@ ul#search {
     margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
-    border-top: 1px #003f7f solid;
+    border-top: 1px #862633 solid;
     background: #f0f0f0;
     opacity: .9;
     -webkit-border-radius: 0 0 6px 6px;
@@ -272,7 +272,7 @@ ul#search {
     }
     #content p.title {
         font: 34px 'trebuchet MS', 'lucida sans';
-        color: #003f7f;
+        color: #862633;
         padding-left: 50px;
     }
     .libguides_api_list {
@@ -387,7 +387,7 @@ ul#search {
     }
     #content p.title {
         font: 30px 'trebuchet MS', 'lucida sans';
-        color: #003f7f;
+        color: #862633;
         padding-left: 40px;
     }
     .libguides_api_list {
@@ -497,7 +497,7 @@ ul#search {
     }
     #content p.title {
         font: 24px 'trebuchet MS', 'lucida sans';
-        color: #003f7f;
+        color: #862633;
         padding-left: 20px;
     }
     .libguides_api_list {
@@ -621,7 +621,7 @@ ul#search {
     }
     #content p.title {
         font: 18px 'trebuchet MS', 'lucida sans';
-        color: #003f7f;
+        color: #862633;
         padding-left: 10px;
     }
     .libguides_api_list {
@@ -748,7 +748,7 @@ ul#search {
     }
     #content p.title {
         font: 18px 'trebuchet MS', 'lucida sans';
-        color: #003f7f;
+        color: #862633;
         padding-left: 10px;
     }
     #boxes a.citationguides {margin-bottom:30px;}
@@ -766,5 +766,5 @@ ul#search {
         width: 95%; 
         margin:0 auto; 
         line-height:1.5;
-        margin:20px; }
+        }
 }
